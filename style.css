@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    z-index: -1;
+    margin: 0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    box-shadow: 2px 4px 10px rgb(116, 115, 115);
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(133, 132, 132);
+    width: 60%;
+    height: 80vh;
+    padding: 15px 20px;
+    font-family: 'robo';
+}
+
+
+.box img {
+    width: 10%;
+    position: relative;
+    left: 33%;
+    bottom: 54px;
+}
+
+.input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 16px 13px;
+    width: 50%;
+    transition: .4s;
+}
+
+.input:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+}
+
+.input:focus {
+    box-shadow: 0 0 0 .15vw rgb(0, 0, 0);
+}
+
+.input-feild {
+    margin-left: 30px;
+}
+
+.todo {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.todo {
+    --width: 120px;
+    --timing: 2s;
+    border: 0;
+    width: var(--width);
+    padding-block: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: rgb(0, 0, 0);
+    transition: all 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes dance6123 {
+    to {
+        background-position: var(--width);
+    }
+}
+
+.gap {
+    margin-left: 20px;
+}
+
+.pp {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 1.8rem;
+}
+
+.edit-btn {
+    padding: 6px 23px;
+    font-size: 16px;
+    margin-left: 2%;
+    cursor: pointer;
+    font-family: 'robo';
+    background-color: rgb(5, 248, 110);
+    color: #fff;
+    letter-spacing: 0.2em;
+    border-radius: 5px;
+    border: none;
+}
+
+.delete-btn {
+    border: none;
+    margin-left: 12px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    border-radius: 5px;
+    font-family: 'robo';
+    cursor: pointer;
+    padding: 6px 23px;
+    font-size: 16px;
+}
+.save-btn{
+    margin-left: 12px;
+    padding: 6px 23px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'robo';
+    background-color: seagreen;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    border-radius: 5px;
+    font-family: 'robo';
+    border: none;
+    cursor: pointer;
+    padding: 6px 23px;
+    font-size: 16px;
+    border-radius: 5px
+}
